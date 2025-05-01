@@ -4,7 +4,7 @@ LOGIN form :
 
 ![LOGIN screenshot](projectPhotos/login.png)
 
-Register form :
+REGISTER form :
 
 ![LOGIN screenshot](projectPhotos/register.png)
 
