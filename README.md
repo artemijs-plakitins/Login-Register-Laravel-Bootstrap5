@@ -8,11 +8,11 @@ REGISTER form :
 
 ![LOGIN screenshot](projectPhotos/register.png)
 
-## Project Overview
+## Project overview :
 
 This is a simple web application built with **Laravel 9.x**, **PHP**, and **Bootstrap 5**. The application provides basic **authentication functionality**, including **user login** and **user registration**. The interface is styled using **Bootstrap 5** for a clean and responsive design.
 
-## Features
+## Features :
 
 - **User Registration**: Users can create a new account by providing their name, email, and password. Passwords are hashed before storing in the database.
 - **User Login**: Registered users can log in using their email and password.
