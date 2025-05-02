@@ -19,7 +19,7 @@ This is a simple web application built with **Laravel 9.x**, **PHP**, and **Boot
 - **Password Validation**: Passwords must be at least 8 characters long and contain both letters and numbers.
 - **Subscription**: The registration form includes an optional checkbox for users to subscribe to newsletters (with a default value of `true`).
 
-## Prerequisites
+## Technologies used :
 
 - PHP 8.x or higher
 - Composer
