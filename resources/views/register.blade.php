@@ -23,11 +23,21 @@
                     </div>
                     <div class="mb-3">
                         <label for="InputPasswordRegister" class="form-label">Password</label>
-                        <input type="password" class="form-control" name="password">
+                        <input type="password" class="form-control @error('password') is-invalid @enderror" name="password">
+                        @error('password')
+                            <div class="invalid-feedback">
+                                {{ $message }}
+                             </div>
+                        @enderror
                     </div>
                     <div class="mb-3">
-                        <label for="InputPasswordConfirmationRegister" class="form-label">Conform password</label>
-                        <input type="password" class="form-control" name="password_confirmation">
+                        <label for="InputPasswordConfirmationRegister" class="form-label">Confirm password</label>
+                        <input type="password" class="form-control @error('password_confirmation') is-invalid @enderror" name="password_confirmation">
+                        @error('password_confirmation')
+                            <div class="invalid-feedback">
+                                {{ $message }}
+                            </div>
+                        @enderror
                     </div>
                     <div class="form-check mb-3">
                         <input class="form-check-input" type="checkbox" name = "subscribed"checked>

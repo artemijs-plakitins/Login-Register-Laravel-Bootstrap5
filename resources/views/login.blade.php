@@ -22,6 +22,13 @@
                     </div>
                         <button type="submit" class="btn btn-success">Sign in</button>
                 </form>
+                <div class ="container">
+                    <div class="mt-5">
+                        @if (session()->has('error'))
+                            <div class="alert alert-danger">{{session('error')}}</div>                            
+                        @endif
+                    </div>
+                </div>
             </div>
         </div>
     </div>    
