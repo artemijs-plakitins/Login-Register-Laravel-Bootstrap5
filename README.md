@@ -1,13 +1,3 @@
-# Laravel Authentication with Bootstrap 5
-
-LOGIN form :
-
-![LOGIN screenshot](projectPhotos/login.png)
-
-REGISTER form :
-
-![LOGIN screenshot](projectPhotos/register.png)
-
 ## Project overview :
 
 This is a simple web application built with **Laravel 9.x**, **PHP**, and **Bootstrap 5**. The application provides basic **authentication functionality**, including **user login** and **user registration**. The interface is styled using **Bootstrap 5** for a clean and responsive design.
